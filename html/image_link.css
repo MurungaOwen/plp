@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+body{
+    font-family: "Quicksand";
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+}
+
+nav a{
+    text-decoration: none;
+    margin: 10px;
+    font-family:"Raleway",monospace;
+}
+nav a:last-child{
+    margin-right: 30px;
+}
+.orange{
+    color: orange;
+}
+.landing{
+    background-color: #E2E8CE;
+    border-radius: 20px;
+    height: 500px;
+    margin: 20px;
+    padding-top: 20px;
+    display: flex;
+    overflow: hidden;
+}
+.hero__text{
+    margin-top: 100px;
+    font-size: x-large;
+    margin-left: 10px;
+    font-style:thin;
+    font-family: "Roboto Mono",monospace;
+    padding: 10px;
+    line-height:1.4;
+    width: 50%;
+    justify-content:center;
+    align-items: center;
+}
+.hero__img{
+    padding: 10px;
+    margin: 20px;
+    width: 50%;
+}
+.h_img{
+    border-radius: 20px ;
+}
+.buttons{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.menu{
+    color: white;
+
+    background-color:rgb(231, 89, 23);
+    border-radius: 15px;
+    padding: 10px;
+    text-decoration: none;
+}.menu:hover{
+    opacity: 0.6;
+    text-decoration: none;
+}
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery{
+    align-items:center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+img{
+    margin:5px;
+}
